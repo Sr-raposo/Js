@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#0F0F0F;
+    /*(9290C3)*/
+    height: 100vh;
+    transition: backgound-color 0.3s ease
+}
+#button{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 150px;
+    background-color: #0F0F0F;
+    box-shadow:  20px 20px 40px #060606,
+                -20px -20px 40px #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*transition: background-color 0.3s ease, box-shadow 0.15s ease*/
+
+    
+    
+
+}
+#button img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    
+
+
+
+}
